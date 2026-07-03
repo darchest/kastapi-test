@@ -10,9 +10,9 @@ group = "org.darchest"
 version = "1.0-SNAPSHOT"
 
 repositories {
-    mavenCentral()
-    maven(url = "https://mvn.darchest.org/repository/snapshots/")
     mavenLocal()
+    maven(url = "https://mvn.darchest.org/repository/snapshots/")
+    mavenCentral()
 }
 
 dependencies {

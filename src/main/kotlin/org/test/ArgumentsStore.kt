@@ -21,6 +21,7 @@ import org.darchest.kastapi.ktor.utility.Wrapper
 @Routes("arguments")
 @PackageName("api")
 @RemoveWrappers(EmptyWrapper::class)
+@Tags("Basic")
 class ArgumentsStore {
 
     @Get("pathArgs/{requiredNumber}/{optionalString}")
